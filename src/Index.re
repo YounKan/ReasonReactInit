@@ -36,6 +36,13 @@ ReactDOMRe.render(
 );
 
 ReactDOMRe.render(
+  <Squares>
+    {React.string("Hello!")}
+  </Squares>,
+  makeContainer("Squares"),
+);
+
+ReactDOMRe.render(
   <ReducerFromReactJSDocs />,
   makeContainer("Reducer From ReactJS Docs"),
 );
