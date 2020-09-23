@@ -25,10 +25,9 @@ function makeContainer(text) {
   return content;
 }
 
-
 ReactDom.render(React.createElement(Squares$MyReactApp.make, {
-  count: 9
-  }), makeContainer("Name : Kanjana Donpraitee"));
+          children: "9"
+        }), makeContainer("Name : Kanjana Donpraitee"));
 
 exports.style = style;
 exports.makeContainer = makeContainer;
